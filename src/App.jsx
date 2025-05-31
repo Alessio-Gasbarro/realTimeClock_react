@@ -1,12 +1,14 @@
-import { useState } from 'react'
+import React from 'react';
+import Header from './components/Header';
+import Clock from './components/Clock';
 
 function App() {
-
   return (
-    <>
-      <h1>Hello World!</h1>
-    </>
-  )
+    <div className="App">
+      <Header />
+      <Clock />
+    </div>
+  );
 }
 
-export default App
+export default App;
